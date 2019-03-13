@@ -15,4 +15,7 @@ let entry = {
   address: '127.0.0.1'
 }
 
-myZoneUpdater.updateEntry(entry)
+// Run the update and get the response object
+myZoneUpdater.updateEntry(entry).then((jsonResp)=>{
+  console.log(JSON.stringify(jsonResp))
+})

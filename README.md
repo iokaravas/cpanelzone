@@ -46,7 +46,10 @@ let entry = {
   address: '127.0.0.1'
 }
 
-myZoneUpdater.updateEntry(entry)
+// Run the update and get the response object
+myZoneUpdater.updateEntry(entry).then((jsonResp)=>{
+  console.log(JSON.stringify(jsonResp))
+})
 ```
 
 ### Authors
@@ -58,6 +61,9 @@ See also the list of [contributors](https://github.com/cpanelzone/contributors) 
 ****DISCLAIMER:****
 
 The login process is pretty "simplistic", thus fragile.
+I created this because I needed to fake a DDNS service, and it works smoothly :)
+
+***The software is provided AS-IS, I take no responsibility if your host denies you service if you use it.***
 
 ### TODO
 Several things could be added and/or improved, including :
