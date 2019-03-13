@@ -2,7 +2,7 @@
 
 A [Node](http://nodejs.org/) module that allows the update of a DNS entry in a CPanel dashboard.
 
-Please note that this is a personal side project, I work on during my free time.
+Please note that this is a personal side project I work on during my free time.
 I may use weird/uncommon ways of doing stuff just for learning purposes.
 As it stands though, the software is fully functional and I'm pushing only working prototypes.
 
