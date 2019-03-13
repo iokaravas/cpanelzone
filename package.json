@@ -1,0 +1,25 @@
+{
+  "name": "cpanelzone",
+  "version": "1.0.0",
+  "description": "A class that allows the update of a DNS entry in CPanel",
+  "main": "cpanelzone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iokaravas/cpanelzone.git"
+  },
+  "keywords": [
+    "cpanel",
+    "login",
+    "dns",
+    "ddns"
+  ],
+  "author": "Ioannis KarAvas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iokaravas/cpanelzone/issues"
+  },
+  "homepage": "https://github.com/iokaravas/cpanelzone#readme"
+}
