@@ -105,7 +105,7 @@ class CpanelZone {
         return await this.update(login)
       }
       catch(err) {
-        throw err // Forward whatever error
+        throw err // Forward if any error
       }
     })()
 
